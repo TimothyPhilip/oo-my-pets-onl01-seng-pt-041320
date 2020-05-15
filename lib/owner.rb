@@ -57,7 +57,7 @@ class Owner
     dogs.map {|info| info.owner = nil}
     cats.map {|info| info.mood = "nervous"}
     cats.map {|info| info.owner = nil}
-    binding.pry
+#    binding.pry
   end
   
   def list_pets 
